@@ -5,7 +5,7 @@ ENV container docker
 ARG USERNAME
 ARG PASSWD
 
-EXPOSE 1080/tcp
+EXPOSE 443/tcp
 
 # 更改时区
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
